@@ -34,7 +34,7 @@ let app = new Vue({
         this.showResult = true
         },
         nextQuestions(answer) {
-            if(this.number == 61) {
+            if(this.number == 100) {
                 this.number = 0
                 this.endGame();
             }else {
@@ -75,6 +75,7 @@ audio_btn.addEventListener('click', function() {
 let btn1 = document.querySelector('#btn-1')
 let btn2 = document.querySelector('#btn-2')
 let btn3 = document.querySelector('#btn-3')
+let btn4 = document.querySelector('#btn-4')
 
 btn1.addEventListener('click', () =>{
     document.body.style.backgroundImage = "url('img/btn1.jpg')"
@@ -84,4 +85,7 @@ btn2.addEventListener('click', () =>{
 })
 btn3.addEventListener('click', () =>{
     document.body.style.backgroundImage = "url('img/btn3.jpg')"
+})
+btn4.addEventListener('click', () =>{
+    document.body.style.backgroundImage = "url('img/btn4.jpg')"
 })
