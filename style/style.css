@@ -132,6 +132,15 @@ i.fa{
     border: 2px solid #945400;
 }
 
+#btn-1:hover{
+    color: black;
+    background-color: #945400;
+    opacity: 0.5;
+    width: 170px;
+    height: 60px;
+}
+
+
 #btn-2 {
     width: 150px;
     height: 40px;
@@ -139,6 +148,14 @@ i.fa{
     color: white;
     background: rgba(0, 0, 0, 0.2);
     border: 2px solid #945400;
+}
+
+#btn-2:hover{
+    color: black;
+    background-color: #945400;
+    opacity: 0.5;
+    width: 170px;
+    height: 60px;
 }
 
 #btn-3 {
@@ -150,6 +167,14 @@ i.fa{
     border: 2px solid #945400;
 }
 
+#btn-3:hover{
+    color: black;
+    background-color: #945400;
+    opacity: 0.5;
+    width: 170px;
+    height: 60px;
+}
+
 #btn-4 {
     width: 150px;
     height: 40px;
@@ -157,6 +182,14 @@ i.fa{
     color: white;
     background: rgba(0, 0, 0, 0.2);
     border: 2px solid #945400;
+}
+
+#btn-4:hover{
+    color: black;
+    background-color: #945400;
+    opacity: 0.5;
+    width: 170px;
+    height: 60px;
 }
 
 
