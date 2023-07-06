@@ -9,6 +9,9 @@
 
 body{
     font-family: "Yanone", sans-serif ;
+    background-image: url(../img/main__BG.jpg);
+    background-repeat: repeat;
+    animation: slide 90s linear infinite;
 }
 
 /* main-menu */
@@ -36,9 +39,6 @@ i.fa{
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    background-image: url(../img/main__BG.jpg);
-    background-repeat: repeat;
-    animation: slide 90s linear infinite;
 }
 
 .app__header{
@@ -108,7 +108,40 @@ i.fa{
     margin-top: 30px;
 }
 
+.changeBG button {
+    margin-top:200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    font-style: inherit;
+}
 
+#btn-1 {
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid #945400;
+}
+
+#btn-2 {
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid #945400;
+}
+
+#btn-3 {
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid #945400;
+}
 
 
 /* Authors */
