@@ -37,7 +37,7 @@ i.fa{
     justify-content: space-between;
     overflow: hidden;
     background-image: url(../img/main__BG.jpg);
-    background-position: 0% 15%;
+    background-position: 0% 50%;
     background-repeat: repeat;
     animation: slide 90s linear infinite;
 }
