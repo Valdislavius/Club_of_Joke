@@ -20,13 +20,13 @@ i.fa{
 
 @keyframes slide  {
     0%{
-        background-position: 0% 0%;
+        background-position: 0% 50%;
     }
     50%{
-        background-position: 100% 0%;
+        background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 0%;
+        background-position: 0% 50%;
     }
 }
 
@@ -37,7 +37,6 @@ i.fa{
     justify-content: space-between;
     overflow: hidden;
     background-image: url(../img/main__BG.jpg);
-    background-position: 0% 50%;
     background-repeat: repeat;
     animation: slide 90s linear infinite;
 }
