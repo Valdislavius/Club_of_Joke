@@ -55,6 +55,7 @@ let audio_icon = document.querySelector('.btn__sound i')
 audio.muted = true;
 audio.autoplay = true;
 audio.volume = 0.3;
+audio.loop = true;
 
 audio.addEventListener('loadedmetadata', function() {
     audio.currentTime = 0 + Math.random() * (audio.duration + 1)
