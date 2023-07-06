@@ -20,13 +20,13 @@ i.fa{
 
 @keyframes slide  {
     0%{
-        background-position: 0% 50%;
+        background-position: 0% 70%;
     }
     50%{
-        background-position: 100% 50%;
+        background-position: 100% 70%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0% 70%;
     }
 }
 
